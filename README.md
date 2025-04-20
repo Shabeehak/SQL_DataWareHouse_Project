@@ -1,14 +1,18 @@
 # Data Warehouse and Analytics Project
 
 Welcome to **Datawarehouse and Analytics Project** repository!
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers.
+1. Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+   
 
 # Project Overview
 This project involves:
-1. Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-2. ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-3. Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-4. Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+**1. Data Architecture:** Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+**2. ETL Pipelines:** Extracting, transforming, and loading data from source systems into the warehouse.
+**3. Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+**4. Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
 
 ## Part 1: Building the Data Warehouse (Data Engineering)
 ### Building the Data Warehouse (Data Engineering)
@@ -28,3 +32,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 - Product Performance
 - Sales Trends
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+# Tools and Materials used in this project:
+1. CSV file
+2. Git
+3. SQL Server Express
+4. SQL Server Management Studio
+5. Notion
+6. DrawIO
