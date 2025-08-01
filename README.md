@@ -1,3 +1,5 @@
+> ⚠️ Project in Progress: Core logic and data model complete. Streamlit UI and final polish pending. Included here to showcase pipeline design and recommendation logic.
+
 # Data Warehouse and Analytics Project
 
 Welcome to **Datawarehouse and Analytics Project** repository!
